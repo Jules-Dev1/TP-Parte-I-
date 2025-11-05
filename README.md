@@ -48,21 +48,21 @@ Funcionalidades Implementadas
 Estrutura do Projeto
 text
 
-campeonato-futebol/
-├── main.c
-├── time.h
-├── time.c
-├── bd_times.h
-├── bd_times.c
-├── partida.h
-├── bd_partidas.h
-├── bd_partidas.c
-├── Makefile
-├── times.csv
-├── partidas_vazio.csv
-├── partidas_parcial.csv
-├── partidas_completo.csv
-└── README.md
+    campeonato-futebol/
+    ├── main.c
+    ├── time.h
+    ├── time.c
+    ├── bd_times.h
+    ├── bd_times.c
+    ├── partida.h
+    ├── bd_partidas.h
+    ├── bd_partidas.c
+    ├── Makefile
+    ├── times.csv
+    ├── partidas_vazio.csv
+    ├── partidas_parcial.csv
+    ├── partidas_completo.csv
+    └── README.md
 
 TADs Principais
 TAD Time
@@ -232,4 +232,4 @@ Este projeto representa a Parte I do Campeonato Computacional de Futebol, focand
 Desenvolvido por: Jules Santos Campos
 Disciplina: Estrutura de Dados
 Instituição: Instituto Federal do Espírito Santo - Campus Serra
-Professor: Thiago M. Paixãox
+Professor: Thiago M. Paixão
