@@ -191,4 +191,45 @@ Decisões de Implementação
 
     Validação de dados carregados
 
-    Mensagen
+    Mensagens informativas para o usuário
+
+Cenários de Teste
+Cenário 1: Campeonato Vazio
+text
+
+cp partidas_vazio.csv partidas.csv
+./campeonato
+
+Resultado esperado: Todos os times com estatísticas zeradas
+Cenário 2: Campeonato em Andamento
+text
+
+cp partidas_parcial.csv partidas.csv
+./campeonato
+
+Resultado esperado: Estatísticas parciais calculadas corretamente
+Cenário 3: Campeonato Finalizado
+text
+
+cp partidas_completo.csv partidas.csv
+./campeonato
+
+Resultado esperado: Estatísticas finais completas
+Ambiente de Desenvolvimento
+
+    Sistema Operacional: Linux Ubuntu 22.04
+
+    Compilador: GCC 11.4.0
+
+    Linguagem: C
+
+    Ferramenta de Build: Make
+
+Notas de Desenvolvimento
+
+Este projeto representa a Parte I do Campeonato Computacional de Futebol, focando nas funcionalidades básicas de consulta e exibição de dados. As operações de inserção, atualização e exclusão serão implementadas na próxima fase.
+
+Desenvolvido por: Jules Santos Campos
+Disciplina: Estrutura de Dados
+Instituição: Instituto Federal do Espírito Santo - Campus Serra
+Professor: Thiago M. Paixão
