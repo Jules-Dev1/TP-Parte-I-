@@ -105,16 +105,16 @@ Pré-requisitos
     Make
 
 Compilação
-text
+bash
 
 make
 
-text
+bash
 
 make clean
 
 Execução
-text
+bash
 
 ./campeonato
 
@@ -195,21 +195,21 @@ Decisões de Implementação
 
 Cenários de Teste
 Cenário 1: Campeonato Vazio
-text
+bash
 
 cp partidas_vazio.csv partidas.csv
 ./campeonato
 
 Resultado esperado: Todos os times com estatísticas zeradas
 Cenário 2: Campeonato em Andamento
-text
+bash
 
 cp partidas_parcial.csv partidas.csv
 ./campeonato
 
 Resultado esperado: Estatísticas parciais calculadas corretamente
 Cenário 3: Campeonato Finalizado
-text
+bash
 
 cp partidas_completo.csv partidas.csv
 ./campeonato
