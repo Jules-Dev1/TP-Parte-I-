@@ -46,7 +46,6 @@ Funcionalidades Implementadas
     Carregamento de Dados: Importação automática de arquivos CSV times.csv e partidas.csv
 
 Estrutura do Projeto
-text
 
     campeonato-futebol/
     ├── main.c
@@ -233,3 +232,4 @@ Desenvolvido por: Jules Santos Campos
 Disciplina: Estrutura de Dados
 Instituição: Instituto Federal do Espírito Santo - Campus Serra
 Professor: Thiago M. Paixão
+
