@@ -107,16 +107,16 @@ Pré-requisitos
 Compilação
 text
 
-    make
+make
 
 text
 
-    make clean
+make clean
 
 Execução
 text
 
-    ./campeonato
+./campeonato
 
 Como Usar
 Menu Principal
