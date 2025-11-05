@@ -49,20 +49,20 @@ Estrutura do Projeto
 text
 
 campeonato-futebol/
-├── main.c                 (Programa principal com menu interativo)
-├── time.h                 (Interface do TAD Time)
-├── time.c                 (Implementação do TAD Time)
-├── bd_times.h             (Interface do TAD BDTimes)
-├── bd_times.c             (Implementação do TAD BDTimes)
-├── partida.h              (Interface do TAD Partida)
-├── bd_partidas.h          (Interface do TAD BDPartidas)
-├── bd_partidas.c          (Implementação do TAD BDPartidas)
-├── Makefile               (Script de compilação)
-├── times.csv              (Dados dos 10 times)
-├── partidas_vazio.csv     (Cenário 1: campeonato sem partidas)
-├── partidas_parcial.csv   (Cenário 2: campeonato em andamento)
-├── partidas_completo.csv  (Cenário 3: campeonato finalizado)
-└── README.md              (Este arquivo)
+├── main.c
+├── time.h
+├── time.c
+├── bd_times.h
+├── bd_times.c
+├── partida.h
+├── bd_partidas.h
+├── bd_partidas.c
+├── Makefile
+├── times.csv
+├── partidas_vazio.csv
+├── partidas_parcial.csv
+├── partidas_completo.csv
+└── README.md
 
 TADs Principais
 TAD Time
@@ -105,16 +105,16 @@ Pré-requisitos
     Make
 
 Compilação
-bash
+text
 
 make
 
-bash
+text
 
 make clean
 
 Execução
-bash
+text
 
 ./campeonato
 
@@ -191,45 +191,4 @@ Decisões de Implementação
 
     Validação de dados carregados
 
-    Mensagens informativas para o usuário
-
-Cenários de Teste
-Cenário 1: Campeonato Vazio
-bash
-
-cp partidas_vazio.csv partidas.csv
-./campeonato
-
-Resultado esperado: Todos os times com estatísticas zeradas
-Cenário 2: Campeonato em Andamento
-bash
-
-cp partidas_parcial.csv partidas.csv
-./campeonato
-
-Resultado esperado: Estatísticas parciais calculadas corretamente
-Cenário 3: Campeonato Finalizado
-bash
-
-cp partidas_completo.csv partidas.csv
-./campeonato
-
-Resultado esperado: Estatísticas finais completas
-Ambiente de Desenvolvimento
-
-    Sistema Operacional: Linux Ubuntu 22.04
-
-    Compilador: GCC 11.4.0
-
-    Linguagem: C
-
-    Ferramenta de Build: Make
-
-Notas de Desenvolvimento
-
-Este projeto representa a Parte I do Campeonato Computacional de Futebol, focando nas funcionalidades básicas de consulta e exibição de dados. As operações de inserção, atualização e exclusão serão implementadas na próxima fase.
-
-Desenvolvido por: Jules Santos Campos
-Disciplina: Estrutura de Dados
-Instituição: Instituto Federal do Espírito Santo - Campus Serra
-Professor: Thiago M. Paixão
+    Mensagen
