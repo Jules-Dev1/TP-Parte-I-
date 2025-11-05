@@ -107,16 +107,16 @@ Pré-requisitos
 Compilação
 text
 
-make
+    make
 
 text
 
-make clean
+    make clean
 
 Execução
 text
 
-./campeonato
+    ./campeonato
 
 Como Usar
 Menu Principal
@@ -233,3 +233,4 @@ Desenvolvido por: Jules Santos Campos
 Disciplina: Estrutura de Dados
 Instituição: Instituto Federal do Espírito Santo - Campus Serra
 Professor: Thiago M. Paixão
+
