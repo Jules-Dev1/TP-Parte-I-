@@ -1,8 +1,6 @@
 Campeonato Computacional de Futebol - Parte I
 
-Sistema de gerenciamento de campeonato de futebol implementado em C, desenvolvido como trabalho prático para a disciplina de Programação. O sistema carrega dados de times e partidas de arquivos CSV, permitindo consultas e exibição da tabela de classificação
-
-.
+Sistema de gerenciamento de campeonato de futebol implementado em C, desenvolvido como trabalho prático para a disciplina de Estrutura de Dados. O sistema carrega dados de times e partidas de arquivos CSV, permitindo consultas e exibição da tabela de classificação.
 Tabela de Conteúdos
 
     Descrição do Projeto
@@ -25,9 +23,7 @@ Tabela de Conteúdos
 
 Descrição do Projeto
 
-O Campeonato Computacional de Futebol é um sistema simplificado desenvolvido em linguagem C para gerenciar dados de um campeonato de futebol "computacional". O sistema persiste dados em arquivos CSV e utiliza Tipos Abstratos de Dados (TADs) para gerenciar as informações em memória
-
-.
+O Campeonato Computacional de Futebol é um sistema simplificado desenvolvido em linguagem C para gerenciar dados de um campeonato de futebol "computacional". O sistema persiste dados em arquivos CSV e utiliza Tipos Abstratos de Dados (TADs) para gerenciar as informações em memória.
 
 Características principais:
 
@@ -41,37 +37,37 @@ Características principais:
 
 Funcionalidades Implementadas
 
-Consultar Time: Busca times por prefixo do nome e exibe estatísticas completas (vitórias, empates, derrotas, gols, saldo, pontos)
+    Consultar Time: Busca times por prefixo do nome e exibe estatísticas completas (vitórias, empates, derrotas, gols, saldo, pontos)
 
+    Consultar Partidas: Busca partidas por time mandante, visitante ou ambos usando prefixo
 
-Consultar Partidas: Busca partidas por time mandante, visitante ou ambos usando prefixo
-Imprimir Tabela: Exibe tabela de classificação completa ordenada por ID dos times
-Carregamento de Dados: Importação automática de arquivos CSV times.csv e partidas.csv
+    Imprimir Tabela: Exibe tabela de classificação completa ordenada por ID dos times
+
+    Carregamento de Dados: Importação automática de arquivos CSV times.csv e partidas.csv
+
 Estrutura do Projeto
 text
 
 campeonato-futebol/
-├── main.c                 # Programa principal com menu interativo
-├── time.h                 # Interface do TAD Time
-├── time.c                 # Implementação do TAD Time
-├── bd_times.h             # Interface do TAD BDTimes
-├── bd_times.c             # Implementação do TAD BDTimes
-├── partida.h              # Interface do TAD Partida
-├── bd_partidas.h          # Interface do TAD BDPartidas
-├── bd_partidas.c          # Implementação do TAD BDPartidas
-├── Makefile               # Script de compilação
-├── times.csv              # Dados dos 10 times
-├── partidas_vazio.csv     # Cenário 1: campeonato sem partidas
-├── partidas_parcial.csv   # Cenário 2: campeonato em andamento
-├── partidas_completo.csv  # Cenário 3: campeonato finalizado
-└── README.md              # Este arquivo
+├── main.c                 (Programa principal com menu interativo)
+├── time.h                 (Interface do TAD Time)
+├── time.c                 (Implementação do TAD Time)
+├── bd_times.h             (Interface do TAD BDTimes)
+├── bd_times.c             (Implementação do TAD BDTimes)
+├── partida.h              (Interface do TAD Partida)
+├── bd_partidas.h          (Interface do TAD BDPartidas)
+├── bd_partidas.c          (Implementação do TAD BDPartidas)
+├── Makefile               (Script de compilação)
+├── times.csv              (Dados dos 10 times)
+├── partidas_vazio.csv     (Cenário 1: campeonato sem partidas)
+├── partidas_parcial.csv   (Cenário 2: campeonato em andamento)
+├── partidas_completo.csv  (Cenário 3: campeonato finalizado)
+└── README.md              (Este arquivo)
 
 TADs Principais
 TAD Time
 
-Gerencia os dados de uma equipe de futebol
-
-:
+Gerencia os dados de uma equipe de futebol:
 
     Dados armazenados: ID, nome, vitórias, empates, derrotas, gols marcados, gols sofridos
 
@@ -109,18 +105,17 @@ Pré-requisitos
     Make
 
 Compilação
-bash
+text
 
-# Compilar o projeto
 make
 
-# Limpar arquivos compilados
+text
+
 make clean
 
 Execução
-bash
+text
 
-# Executar o programa
 ./campeonato
 
 Como Usar
@@ -149,7 +144,7 @@ text
 
 Escolha o modo de consulta:
 1 - Por time mandante
-2 - Por time visitante  
+2 - Por time visitante
 3 - Por time mandante ou visitante
 4 - Retornar ao menu principal
 Opção: 3
@@ -200,23 +195,23 @@ Decisões de Implementação
 
 Cenários de Teste
 Cenário 1: Campeonato Vazio
-bash
+text
 
 cp partidas_vazio.csv partidas.csv
 ./campeonato
 
 Resultado esperado: Todos os times com estatísticas zeradas
 Cenário 2: Campeonato em Andamento
-bash
+text
 
 cp partidas_parcial.csv partidas.csv
 ./campeonato
 
 Resultado esperado: Estatísticas parciais calculadas corretamente
 Cenário 3: Campeonato Finalizado
-bash
+text
 
-cp partidas_completo.csv partidas.csv  
+cp partidas_completo.csv partidas.csv
 ./campeonato
 
 Resultado esperado: Estatísticas finais completas
@@ -232,9 +227,7 @@ Ambiente de Desenvolvimento
 
 Notas de Desenvolvimento
 
-Este projeto representa a Parte I do Campeonato Computacional de Futebol, focando nas funcionalidades básicas de consulta e exibição de dados. As operações de inserção, atualização e exclusão serão implementadas na próxima fase
-
-.
+Este projeto representa a Parte I do Campeonato Computacional de Futebol, focando nas funcionalidades básicas de consulta e exibição de dados. As operações de inserção, atualização e exclusão serão implementadas na próxima fase.
 
 Desenvolvido por: Jules Santos Campos
 Disciplina: Estrutura de Dados
