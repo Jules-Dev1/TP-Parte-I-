@@ -106,62 +106,57 @@ Pré-requisitos
 Compilação
 text
 
-make
+    make
 
-text
+Limpeza
 
-make clean
+    make clean
 
 Execução
-text
 
-./campeonato
+    ./campeonato
 
 Como Usar
 Menu Principal
 
 Ao executar o programa, você terá acesso ao menu:
-text
 
-=== Campeonato Computacional de Futebol ===
-1 - Consultar time
-2 - Consultar partidas
-6 - Imprimir tabela
-Q - Sair
-Opção:
+    === Campeonato Computacional de Futebol ===
+    1 - Consultar time
+    2 - Consultar partidas
+    6 - Imprimir tabela
+    Q - Sair
+    Opção:
 
 Consultar Time
-text
 
-Digite o nome ou prefixo do time: NET
+    Digite o nome ou prefixo do time: NET
 
-ID Time      V E D GM GS S  PG
-6  NETunos   3 2 5 15 18 -3 11
+    ID Time      V E D GM GS S  PG
+    6  NETunos   3 2 5 15 18 -3 11
 
 Consultar Partidas
-text
 
-Escolha o modo de consulta:
-1 - Por time mandante
-2 - Por time visitante
-3 - Por time mandante ou visitante
-4 - Retornar ao menu principal
-Opção: 3
+    Escolha o modo de consulta:
+    1 - Por time mandante
+    2 - Por time visitante
+    3 - Por time mandante ou visitante
+    4 - Retornar ao menu principal
+    Opção: 3
 
-Digite o nome: NET
+    Digite o nome: NET
 
-ID Time1     x Time2
-23 NETunos   1 x 1 SemCTRL
-47 REACTivos 4 x 2 NETunos
+    ID Time1     x Time2
+    23 NETunos   1 x 1 SemCTRL
+    47 REACTivos 4 x 2 NETunos
 
 Imprimir Tabela
-text
 
-Imprimindo classificação...
-ID Time        V E D GM GS S  PG
-0  JAVAlis     8 1 1 32 10 22 25
-1  ESCorpiões  5 2 3 21 15 6  17
-...
+    Imprimindo classificação...
+    ID Time        V E D GM GS S  PG
+    0  JAVAlis     8 1 1 32 10 22 25
+    1  ESCorpiões  5 2 3 21 15 6  17
+    ...
 
 Decisões de Implementação
 1. Estrutura de Dados
@@ -194,24 +189,21 @@ Decisões de Implementação
 
 Cenários de Teste
 Cenário 1: Campeonato Vazio
-text
 
-cp partidas_vazio.csv partidas.csv
-./campeonato
+    cp partidas_vazio.csv partidas.csv
+    ./campeonato
 
 Resultado esperado: Todos os times com estatísticas zeradas
 Cenário 2: Campeonato em Andamento
-text
 
-cp partidas_parcial.csv partidas.csv
-./campeonato
+    cp partidas_parcial.csv partidas.csv
+    ./campeonato
 
 Resultado esperado: Estatísticas parciais calculadas corretamente
 Cenário 3: Campeonato Finalizado
-text
 
-cp partidas_completo.csv partidas.csv
-./campeonato
+    cp partidas_completo.csv partidas.csv
+    ./campeonato
 
 Resultado esperado: Estatísticas finais completas
 Ambiente de Desenvolvimento
@@ -232,4 +224,5 @@ Desenvolvido por: Jules Santos Campos
 Disciplina: Estrutura de Dados
 Instituição: Instituto Federal do Espírito Santo - Campus Serra
 Professor: Thiago M. Paixão
+
 
