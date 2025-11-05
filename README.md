@@ -221,8 +221,9 @@ Notas de Desenvolvimento
 Este projeto representa a Parte I do Campeonato Computacional de Futebol, focando nas funcionalidades básicas de consulta e exibição de dados. As operações de inserção, atualização e exclusão serão implementadas na próxima fase.
 
 Desenvolvido por: Jules Santos Campos
+
 Disciplina: Estrutura de Dados
+
 Instituição: Instituto Federal do Espírito Santo - Campus Serra
+
 Professor: Thiago M. Paixão
-
-
